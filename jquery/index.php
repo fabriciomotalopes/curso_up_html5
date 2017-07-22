@@ -7,18 +7,16 @@
         
     </head>
     <body>
-        <article>
+        <article id="22">
             <header>
                 <h1>Iniciando com JQuery!</h1>
-                <p>Estamos estudando JQuery de forma profissional e descomplicada!</p>
-                <a  class="j_mouseover" href="#" title="UpInside Treinamentos">UpInside</a>
+                <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Pombos_na_Praia_do_Franc%C3%AAs.JPG"/>
+                <p class="a">Estamos estudando JQuery de forma profissional e descomplicada!</p>
+                <p class="b" style="display: none;">Estamos estudando JQuery de forma profissional e descomplicada!</p>
+                <a  class="j_mouseover" rel="22" href="#" title="UpInside Treinamentos">Delete</a>
             </header>
         </article>
-        
-        <textarea class="j_keyup" rows="5"></textarea>
-        <div class="j_empresa" style="padding: 20px; margin: 10px 0 9px 0; background: #ccc;"></div>
-        
-        
+
         <script src="../js/jquery.js"></script>
         <script src="../js/scripts.js"></script>
     </body>

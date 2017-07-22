@@ -9,18 +9,18 @@
         <link rel="shortcut icon" href="img/favicon.png"/>
         <link rel="stylesheet" href="style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"/> 
-
-
+        
     </head>
+    
     <body>
-        <header class="main_header container">
+        <header class="main_header container home">
             <div class="content">
                 <img class="main_logo" title="Curso de HTML5" alt="[Curso de HTML5]" src="img/_logo.png"/>
                 <h1 class="fontzero">Curso de HTML5 - UpInside Treinamentos</h1>
 
                 <ul class="main_menu">
                     <li><a href="#home" title="Curso de HTML5">Home</a></li>
-                    <li><a href="#cursos" title="Sobre o Curos de HTML5">O Curso</a></li>
+                    <li><a href="#curso" title="Sobre o Curos de HTML5">O Curso</a></li>
                     <li><a class="special" target="_blank" href="//www.upinside.com.br/curso/html5-do-jeito-certo" title="Curos Work Series - HTML5 do Jeito Certo">Work Series</a></li>
                     <li><a href="#videoaulas" title="Confira Video Aulas do Curos de HTML5">Video Aulas</a></li>
                     <li><a href="#contato" title="Contato sobre o Curso de HTML5">Fale Conosco</a></li>
@@ -234,7 +234,10 @@
             </div>
         </footer>
         <!--FECHA RADAPÉ-->
-
+        
+        <script src="js/jquery.js"></script>
+        <script src="js/scripts.js"></script>
+        
         <div id="fb-root"></div>
         <script>
             (function (d, s, id) {
@@ -247,7 +250,7 @@
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
         </script>
-
+    </body>
 </html>
 
 

@@ -45,7 +45,8 @@ iframe['style']{
 .fontzero{font-size: 0px}
 .border_bottom{padding-bottom: 10px; background: url(img/line_sidebar.jpg) center center;}
 .border_bottom_destaque{float: left; width: 100%}
-
+.backtop{position: fixed; display: none; cursor: pointer; bottom: 15px; right: 25px; text-transform: uppercase; color: #fff; padding: 10px; background: rgba(0,0,0,0.5);}
+.backtop:hover{background: #09f;}
 /*BIG TITLE*/
 .big_title{
     display: block;
@@ -86,6 +87,15 @@ iframe['style']{
 /*HEADER*/
 .main_header{
     font-size: 0.875em;
+}
+
+.main_header_fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    z-index: 99;
 }
 
 .main_header .content{
@@ -389,7 +399,7 @@ iframe['style']{
     float: right;
     margin-top: 25px;
     margin-left: 20px;
-    /*display: none;*/
+    display: none;
 }
 
 /*FOOTER*/

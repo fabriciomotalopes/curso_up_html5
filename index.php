@@ -13,6 +13,9 @@
     </head>
     
     <body>
+        
+        <p class="j_back backtop">Topo</p>
+        
         <header class="main_header container home">
             <div class="content">
                 <img class="main_logo" title="Curso de HTML5" alt="[Curso de HTML5]" src="img/_logo.png"/>
@@ -188,7 +191,7 @@
                         <h1>Entre em Contato:</h1>
                         <p>Este Formulário está aqui apenas para estudos do curso de HTML5</p>
                     </header>
-                    <form class="contato_form" action="" method="post">
+                    <form class="contato_form j_formsubmit" action="" method="post">
 
                         <label class="medium">
                             <span>Nome:</span>

@@ -47,6 +47,8 @@ iframe['style']{
 .border_bottom_destaque{float: left; width: 100%}
 .backtop{position: fixed; display: none; cursor: pointer; bottom: 15px; right: 25px; text-transform: uppercase; color: #fff; padding: 10px; background: rgba(0,0,0,0.5);}
 .backtop:hover{background: #09f;}
+
+
 /*BIG TITLE*/
 .big_title{
     display: block;

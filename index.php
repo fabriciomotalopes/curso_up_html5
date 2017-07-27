@@ -10,6 +10,9 @@
         <link rel="stylesheet" href="style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"/> 
         
+         <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->        
     </head>
     
     <body>
